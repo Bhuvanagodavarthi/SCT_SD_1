@@ -2,17 +2,13 @@
 
 ## Task 1 - SkillCraft Technology
 
-A simple temperature converter that converts temperatures between Celsius, Fahrenheit, and Kelvin.
+A web-based Temperature Converter that allows users to easily convert temperatures between Celsius, Fahrenheit, and Kelvin.
 
 ## Features
 
-- Convert Celsius to Fahrenheit
-- Convert Celsius to Kelvin
-- Convert Fahrenheit to Celsius
-- Convert Fahrenheit to Kelvin
-- Convert Kelvin to Celsius
-- Convert Kelvin to Fahrenheit
-- Simple and easy-to-use web interface
+- Converts temperature between Celsius, Fahrenheit, and Kelvin
+- Simple web interface
+- Java console version
 
 ## Technologies Used
 
@@ -20,7 +16,69 @@ A simple temperature converter that converts temperatures between Celsius, Fahre
 - HTML
 - CSS
 - JavaScript
-- Git & GitHub
+
+## How It Works
+
+The program first converts the given temperature to Celsius.
+
+Then it converts the Celsius value to the selected target scale.
+
+```text
+Input Temperature
+       ↓
+Convert to Celsius
+       ↓
+Convert to Target Scale
+       ↓
+Display Result
+```
+
+## Temperature Conversion Formulas
+
+### Celsius to Fahrenheit
+```
+°F = (°C × 9/5) + 32
+```
+
+### Fahrenheit to Celsius
+
+```text
+°C = (°F - 32) × 5/9
+```
+
+### Celsius to Kelvin
+
+```text
+K = °C + 273.15
+```
+
+### Kelvin to Celsius
+
+```text
+°C = K - 273.15
+```
+
+## How to Run
+
+### Java Version
+
+Open and run:
+
+```text
+src/task1/TemperatureConverter.java
+```
+
+using IntelliJ IDEA or another Java IDE.
+
+### Website Version
+
+Open:
+
+```text
+website/index.html
+```
+
+in a web browser.
 
 ## Project Structure
 
@@ -34,8 +92,18 @@ SCT_SD_1
 │
 ├── website
 │   ├── index.html
-│   ├── style.css
-│   └── script.js
+│   ├── script.js
+│   └── style.css
 │
 ├── .gitignore
 └── README.md
+```
+
+## Author
+
+**Bhuvana Godavarthi**
+**GitHub: https://github.com/BhuvanaGodavarthi**
+
+## Internship
+
+**SkillCraft Technology - Software Development Internship**
